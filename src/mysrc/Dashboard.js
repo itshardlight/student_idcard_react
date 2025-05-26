@@ -202,9 +202,22 @@ function Dashboard() {
 
                     <div className="col-3">
                       <div className="border border-primary p-3 h-100 d-flex">
-                        <div className="col-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white icon2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                                        </svg></div>
+                        <div className="col-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 text-white icon2"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                            ></path>
+                          </svg>
+                        </div>
                         <div className="col">
                           <div>Manage Schools</div>
                           <div>Add or edit Schools</div>
@@ -214,9 +227,22 @@ function Dashboard() {
 
                     <div className="col-3">
                       <div className="border border-primary p-3 h-100 d-flex ">
-                        <div className="col-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white icon2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                        </svg></div>
+                        <div className="col-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 text-white icon2"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path>
+                          </svg>
+                        </div>
                         <div className="col">
                           <div>Add School</div>
                           <div>Create a new School</div>
@@ -225,7 +251,77 @@ function Dashboard() {
                     </div>
                   </div>
                 </div>
-                
+                <div className="container">
+                  <div className="row"> School Statistics</div>
+                  <div className="row ">
+                    <div className="col-3">
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="icon2 text-white mb-2"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              width={40}
+                              height={40}
+                            >
+                              <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>Total Schools</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>1</div>
+                        </div>
+                      </div>
+                    </div>
+                     <div className="col-3">
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-amber-500 icon2" fill="none" viewBox="0 0 24 24" stroke="white">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                                        </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>School Admins</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>8</div>
+                        </div>
+                      </div>
+                    </div>
+                      <div className="col-3">
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 icon2" fill="none" viewBox="0 0 24 24" stroke="white">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>Latest School</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>test123</div>
+                            <div>2 days ago</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
