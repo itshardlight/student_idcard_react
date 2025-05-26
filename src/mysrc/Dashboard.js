@@ -26,8 +26,7 @@ function Dashboard() {
             </div>
           </nav>
 
-          <div
-            className="collapse left-content d-md-block col-md-2 bg-light p-3 "
+          <div className="collapse left-content d-md-block col-md-2 bg-light p-3 "
             id="sidebarMenu"
           >
             <div className="mb-2 ms-3">
@@ -139,8 +138,10 @@ function Dashboard() {
           </div>
 
           <div className="right-content col-10 p-3">
-            <div className="col bg-light align-items-center p-2 ps-4">
-              <div className="row ps-3">Dashboard</div>
+                 <div className="row"> <div className="col-3 text-center">Dashboard</div></div>
+
+            <div className="row bg-light align-items-center p-2 ps-4">
+         
               <div className="container py-3 col-10 ">
                 <div className="container">
                   <div className="row">Welcome To The Admin Panel</div>
