@@ -147,27 +147,61 @@ function Dashboard() {
                   <button class="btn btn-primary">View Student Cards</button>
                 </div>
                 <div className="container">
-                  <div className="row"> Quick Stats</div>
-                  <div className="row gx-3">
+                  <div className="row"> School Statistics</div>
+                  <div className="row ">
                     <div className="col-4">
-                      <div className="border border-primary p-3 h-100">
-                        <div>Total Students Card</div>
-                        <div>0</div>
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 icon2"  fill="none" viewBox="0 0 24 24" stroke="white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>Total Schools Cards</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>1</div>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="col-4">
-                      <div className="border border-primary p-3 h-100">
-                        <div>Latest Submission</div>
-                        <div>None</div>
+                     <div className="col-4">
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 icon2" fill="none" viewBox="0 0 24 24" stroke="white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>Latest Submission</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>None</div>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="col-4">
-                      <div className="border border-primary p-3 h-100">
-                        <div>This Month</div>
-                        <div>0</div>
-                        <div>New submissions this month</div>
+                      <div className="col-4">
+                      <div className="border border-primary p-3 h-100 d-flex flex-column ">
+                        <div className="row">
+                          <div className="col-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500 icon2" fill="none" viewBox="0 0 24 24" stroke="white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                                    </svg>
+                          </div>
+                          <div className="col-10">
+                            {" "}
+                            <div>This Month</div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div>0</div>
+                            <div>New submissions this month</div>
+                        </div>
                       </div>
                     </div>
                   </div>
