@@ -254,7 +254,7 @@ function Dashboard() {
                 <div className="container">
                   <div className="row"> School Statistics</div>
                   <div className="row ">
-                    <div className="col-3">
+                    <div className="col-4">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -283,7 +283,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                     <div className="col-3">
+                     <div className="col-4">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -301,7 +301,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                      <div className="col-3">
+                      <div className="col-4">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
