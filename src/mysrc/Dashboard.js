@@ -9,7 +9,7 @@ function Dashboard() {
           <div className="col-6 text-end">superadmin</div>
         </div>
 
-        <div className="body bg-danger row" style={{ minHeight: "600px" }}>
+        <div className="body  row" style={{ minHeight: "600px" }}>
           <nav className="navbar navbar-light bg-light d-md-none">
             <div className="container-fluid">
               <button
@@ -141,7 +141,7 @@ function Dashboard() {
           <div className="right-content col-10 p-3">
             <div className="col bg-light align-items-center p-2 ps-4">
               <div className="row ps-3">Dashboard</div>
-              <div className="container py-3 col-10 bg-danger">
+              <div className="container py-3 col-10 ">
                 <div className="container">
                   <div className="row">Welcome To The Admin Panel</div>
                   <button class="btn btn-primary">View Student Cards</button>
