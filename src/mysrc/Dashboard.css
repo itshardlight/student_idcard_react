@@ -10,3 +10,6 @@
   padding: 5px;               /* smaller padding to fit */
   box-sizing: border-box;     /* include padding in width/height */
 }
+.bodywala{
+  width: 100%;
+}

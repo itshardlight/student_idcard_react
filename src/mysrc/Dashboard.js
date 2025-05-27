@@ -4,7 +4,7 @@ function Dashboard() {
   return (
     <>
       <div className="webpage">
-        <div className="body row" style={{ minHeight: "600px" }}>
+        <div className="bodywala row" style={{ minHeight: "600px" }}>
           <nav className="navbar navbar-light bg-light d-md-none">
             <div className="container-fluid">
               <button
@@ -21,8 +21,7 @@ function Dashboard() {
             </div>
           </nav>
 
-          <div
-            className="collapse left-content d-md-block col-md-2 bg-white p-3 "
+          <div className="collapse left-content d-md-block col-md-2 bg-white p-3 "
             id="sidebarMenu"
           >
             {" "}
@@ -142,7 +141,7 @@ function Dashboard() {
               <div className="col text-end">superadmin</div>
             </div>
             <div className="row">
-              {" "}
+             
               <div className="col-3 text-center p-3"> Dashboard</div>
             </div>
 
@@ -151,7 +150,7 @@ function Dashboard() {
                 <div className="container bg-white rounded p-4 mb-4">
                   <div className="col mb-2">Welcome To The Admin Panel</div>
                   <div className="col">
-                    {" "}
+                 
                     <button class="btn btn-primary">View Student Cards</button>
                   </div>
                 </div>
