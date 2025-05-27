@@ -23,11 +23,11 @@ function Dashboard() {
             </div>
           </nav>
 
-          <div className="collapse left-content d-md-block col-md-2 bg-light p-3 "
+          <div className="collapse left-content d-md-block col-md-2 bg-white p-3 "
             id="sidebarMenu"
           > <div className="heading row d-flex align-items-center p-3 bg-primary text-white">
                  <div className="text-start">STUDENT CARD HUB</div></div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3 p-2 mt-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
@@ -44,7 +44,7 @@ function Dashboard() {
               </svg>
               Dashboard
             </div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
@@ -62,8 +62,8 @@ function Dashboard() {
               All Student Cards
             </div>
             <hr />
-            <div className="mb-2 ms-3">School Management</div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3 p-2">School Management</div>
+            <div className="mb-2 ms-3 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
@@ -80,7 +80,7 @@ function Dashboard() {
               </svg>
               Manage Schools
             </div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
@@ -98,8 +98,8 @@ function Dashboard() {
               Add New School
             </div>
             <hr />
-            <div className="mb-2 ms-3">User Management</div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3  p-2">User Management</div>
+            <div className="mb-2 ms-3  p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
@@ -116,7 +116,7 @@ function Dashboard() {
               </svg>
               Settings
             </div>
-            <div className="mb-2 ms-3">
+            <div className="mb-2 ms-3  p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon me-2"
