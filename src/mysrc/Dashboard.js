@@ -140,16 +140,16 @@ function Dashboard() {
      
           <div className="col text-end">superadmin</div>
         </div>
-                 <div className="row"> <div className="col-3 text-center p-3">    Dashboard</div></div>
+                 <div className="row"> <hr /><div className="col-3 text-center p-3">    Dashboard</div></div>
 
             <div className="row bg-light align-items-center p-2 ps-4">
          
-              <div className="container py-3 col-10 ">
-                <div className="container">
+              <div className="container py-3 col-10">
+                <div className="container bg-white rounded p-4 mb-4">
                   <div className="row">Welcome To The Admin Panel</div>
                   <button class="btn btn-primary">View Student Cards</button>
                 </div>
-                <div className="container">
+                <div className="container bg-white rounded p-4 mb-4">
                   <div className="row"> School Statistics</div>
                   <div className="row ">
                     <div className="col-4">
@@ -209,7 +209,7 @@ function Dashboard() {
                     </div>
                   </div>
                 </div>
-                <div className="container">
+                <div className="container bg-white rounded p-4 mb-4">
                   <div className="row"> Quick Actions</div>
                   <div className="row gx-3">
                     <div className="col-3">
@@ -288,7 +288,7 @@ function Dashboard() {
                     </div>
                   </div>
                 </div>
-                <div className="container">
+                <div className="container bg-white rounded p-4 mb-4">
                   <div className="row"> School Statistics</div>
                   <div className="row ">
                     <div className="col-4">
