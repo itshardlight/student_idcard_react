@@ -6,7 +6,7 @@ function Dashboard() {
       <div className="webpage">
    
 
-        <div className="body  row" style={{ minHeight: "600px" }}>
+        <div className="body row" style={{ minHeight: "600px" }}>
           <nav className="navbar navbar-light bg-light d-md-none">
             <div className="container-fluid">
               <button
@@ -149,7 +149,7 @@ function Dashboard() {
                   <div className="col mb-2">Welcome To The Admin Panel</div>
                  <div className="col"> <button class="btn btn-primary">View Student Cards</button></div>
                 </div>
-                <div className="container bg-white rounded p-4 mb-4">
+                <div className="container bg-white rounded p-4 mb-4 ">
                   <div className="col mb-2"> Quick Stats</div>
                   <div className="row ">
                     <div className="col-4">
@@ -213,8 +213,8 @@ function Dashboard() {
                   <div className="col mb-2"> Quick Actions</div>
                   <div className="row gx-3">
                     <div className="col-3">
-                      <div className="border border-primary p-3 h-100 d-flex">
-                        <div className="col-2">
+                      <div className="border border-primary p-3 h-100 d-flex align-items-center ">
+                        <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-6 w-6 text-white icon2"
@@ -238,8 +238,8 @@ function Dashboard() {
                     </div>
 
                     <div className="col-3">
-                      <div className="border border-primary p-3 h-100 d-flex">
-                        <div className="col-2">
+                      <div className="border border-primary p-3 h-100 d-flex align-items-center">
+                        <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-6 w-6 text-white icon2"
@@ -263,8 +263,8 @@ function Dashboard() {
                     </div>
 
                     <div className="col-3">
-                      <div className="border border-primary p-3 h-100 d-flex ">
-                        <div className="col-2">
+                      <div className="border border-primary p-3 h-100 d-flex align-items-center">
+                        <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-6 w-6 text-white icon2"
