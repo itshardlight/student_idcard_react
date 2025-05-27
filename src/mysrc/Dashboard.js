@@ -158,7 +158,7 @@ function Dashboard() {
                 <div className="container bg-white rounded p-4 mb-4 ">
                   <div className="col mb-2"> Quick Stats</div>
                   <div className="row ">
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -187,7 +187,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -216,7 +216,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -251,7 +251,7 @@ function Dashboard() {
                 <div className="container bg-white rounded p-4 mb-4">
                   <div className="col mb-2"> Quick Actions</div>
                   <div className="row gx-3">
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-3 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex align-items-center ">
                         <div className="col-2 me-3">
                           <svg
@@ -276,7 +276,7 @@ function Dashboard() {
                       </div>
                     </div>
 
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-3 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex align-items-center">
                         <div className="col-2 me-3">
                           <svg
@@ -301,7 +301,7 @@ function Dashboard() {
                       </div>
                     </div>
 
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-3 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex align-items-center">
                         <div className="col-2 me-3">
                           <svg
@@ -330,7 +330,7 @@ function Dashboard() {
                 <div className="container bg-white rounded p-4 mb-4">
                   <div className="col mb-2"> School Statistics</div>
                   <div className="row ">
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -359,7 +359,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
@@ -388,7 +388,7 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4 gy-3">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
                         <div className="row">
                           <div className="col-2">
