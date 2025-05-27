@@ -135,7 +135,7 @@ function Dashboard() {
             </div>
           </div>
 
-          <div className="right-content col-10 p-3">
+          <div className="right-content col-12 col-md-10 p-3">
                  <div className="heading row d-flex align-items-center p-3 bg-primary text-white">
      
           <div className="col text-end">superadmin</div>
