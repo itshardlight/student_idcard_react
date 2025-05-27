@@ -3,8 +3,8 @@ import "./Dashboard.css";
 function Dashboard() {
   return (
     <>
-      <div className="webpage">
-        <div className="bodywala row" style={{ minHeight: "600px" }}>
+      <div className="webpage  ">
+        <div className="bodywala row " style={{ minHeight: "600px"}}>
           <nav className="navbar navbar-light bg-light d-md-none">
             <div className="container-fluid">
               <button
