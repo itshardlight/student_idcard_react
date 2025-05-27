@@ -140,7 +140,7 @@ function Dashboard() {
      
           <div className="col text-end">superadmin</div>
         </div>
-                 <div className="row"> <hr /><div className="col-3 text-center p-3">    Dashboard</div></div>
+                 <div className="row"> <div className="col-3 text-center p-3">    Dashboard</div></div>
 
             <div className="row bg-light align-items-center p-2 ps-4">
          
