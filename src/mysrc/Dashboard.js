@@ -146,11 +146,11 @@ function Dashboard() {
          
               <div className="container py-3 col-10">
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="row">Welcome To The Admin Panel</div>
-                  <button class="btn btn-primary">View Student Cards</button>
+                  <div className="col mb-2">Welcome To The Admin Panel</div>
+                 <div className="col"> <button class="btn btn-primary">View Student Cards</button></div>
                 </div>
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="row"> School Statistics</div>
+                  <div className="col mb-2"> Quick Stats</div>
                   <div className="row ">
                     <div className="col-4">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
@@ -201,7 +201,7 @@ function Dashboard() {
                             <div>This Month</div>
                           </div>
                         </div>
-                        <div className="row">
+                        <div className="col">
                           <div>0</div>
                             <div>New submissions this month</div>
                         </div>
@@ -210,7 +210,7 @@ function Dashboard() {
                   </div>
                 </div>
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="row"> Quick Actions</div>
+                  <div className="col mb-2"> Quick Actions</div>
                   <div className="row gx-3">
                     <div className="col-3">
                       <div className="border border-primary p-3 h-100 d-flex">
@@ -289,7 +289,7 @@ function Dashboard() {
                   </div>
                 </div>
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="row"> School Statistics</div>
+                  <div className="col mb-2"> School Statistics</div>
                   <div className="row ">
                     <div className="col-4">
                       <div className="border border-primary p-3 h-100 d-flex flex-column ">
