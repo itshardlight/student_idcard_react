@@ -5,9 +5,9 @@
 .icon2 {
   width: 40px;
   height: 40px;
-  background-color: #727272; /* blue */
+  /* background-color: #727272;  */
   border-radius: 50%; /* circle */
-  padding: 5px; /* smaller padding to fit */
+  padding: 7px; /* smaller padding to fit */
   box-sizing: border-box; /* include padding in width/height */
 }
 .bodywala {
@@ -47,4 +47,29 @@
   border: 2px solid rgba(255, 105, 180, 0.2); /* Matching pink border */
   border-radius: 0.5rem;
   padding: 1rem;
+}
+.iconblue {
+  background-color: rgba(0, 123, 255, 0.2); /* Transparent blue */
+  opacity: 50%;
+}
+.icongreen {
+  background-color: rgba(40, 167, 69, 0.2); /* Transparent green */
+  opacity: 60%;
+}
+.iconpurple {
+  background-color: rgba(178, 102, 255, 0.2);
+  opacity: 50%;
+}
+.iconyellow {
+  background-color: rgba(255, 193, 7, 0.3); /* Yellow with transparency */
+}
+.iconpink {
+  background-color: rgba(255, 105, 180, 0.2); /* Pink with transparency */
+  opacity: 50%;
+}
+.bg-purple {
+  background-color: #a855f7 !important; /* Bootstrap's purple shade */
+}
+.bg-green {
+  background-color: #22c55e !important; /* Bootstrap's purple shade */
 }

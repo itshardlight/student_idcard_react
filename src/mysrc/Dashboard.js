@@ -4,7 +4,7 @@ function Dashboard() {
   return (
     <>
       <div className="webpage  ">
-        <div className="bodywala row " style={{ minHeight: "600px"}}>
+        <div className="bodywala row " style={{ minHeight: "600px" }}>
           <nav className="navbar navbar-light bg-light d-md-none">
             <div className="container-fluid">
               <button
@@ -21,7 +21,8 @@ function Dashboard() {
             </div>
           </nav>
 
-          <div className="collapse left-content d-md-block col-md-2 bg-white p-3 "
+          <div
+            className="collapse left-content d-md-block col-md-2 bg-white p-3 "
             id="sidebarMenu"
           >
             {" "}
@@ -67,7 +68,7 @@ function Dashboard() {
             <div className="mb-2 ms-3 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="icon me-2"
+                className="icon me-2 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -141,7 +142,6 @@ function Dashboard() {
               <div className="col text-end">superadmin</div>
             </div>
             <div className="row">
-             
               <div className="col-3 text-center p-3"> Dashboard</div>
             </div>
 
@@ -150,7 +150,6 @@ function Dashboard() {
                 <div className="container bg-white rounded p-4 mb-4">
                   <div className="col mb-2">Welcome To The Admin Panel</div>
                   <div className="col">
-                 
                     <button class="btn btn-primary">View Student Cards</button>
                   </div>
                 </div>
@@ -158,16 +157,15 @@ function Dashboard() {
                   <div className="col mb-2"> Quick Stats</div>
                   <div className="row ">
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="bluewala  p-4 h-100 d-flex flex-column">
-                     
+                      <div className="bluewala p-4 h-100 d-flex flex-column">
                         <div className="row">
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6 text-blue-500 icon2"
+                              class="h-6 w-6 text-red icon2 iconblue "
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="white"
+                              stroke="blue"
                             >
                               <path
                                 stroke-linecap="round"
@@ -193,10 +191,10 @@ function Dashboard() {
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6 text-green-500 icon2"
+                              class="h-6 w-6 text-green-500 icon2 icongreen"
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="white"
+                              stroke="green"
                             >
                               <path
                                 stroke-linecap="round"
@@ -222,10 +220,10 @@ function Dashboard() {
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6 text-purple-500 icon2"
+                              class="h-6 w-6 text-purple-500 icon2 iconpurple"
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="white"
+                              stroke="purple"
                             >
                               <path
                                 stroke-linecap="round"
@@ -256,10 +254,10 @@ function Dashboard() {
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 text-white icon2"
+                            class="h-6 w-6  icon2 bg-green "
                             fill="none"
                             viewBox="0 0 24 24"
-                            stroke="currentColor"
+                            stroke="white"
                           >
                             <path
                               stroke-linecap="round"
@@ -281,7 +279,7 @@ function Dashboard() {
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 text-white icon2"
+                            class="h-6 w-6 text-white icon2 bg-purple "
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -306,7 +304,7 @@ function Dashboard() {
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 text-white icon2"
+                            class="h-6 w-6 text-white icon2 bg-warning"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -336,17 +334,17 @@ function Dashboard() {
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              className="icon2 text-white mb-2"
+                              class="h-6 w-6 text-teal-500 icongreen icon2"
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              width={40}
-                              height={40}
+                              stroke="green"
                             >
-                              <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                              ></path>
                             </svg>
                           </div>
                           <div className="col-10">
@@ -365,10 +363,10 @@ function Dashboard() {
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6 text-amber-500 icon2"
+                              class="h-6 w-6 text-amber-500 icon2 iconyellow"
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="white"
+                              stroke="GoldenRod  "
                             >
                               <path
                                 stroke-linecap="round"
@@ -394,10 +392,10 @@ function Dashboard() {
                           <div className="col-2">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6 text-pink-500 icon2"
+                              class="h-6 w-6 text-pink-500 icon2 iconpink"
                               fill="none"
                               viewBox="0 0 24 24"
-                              stroke="white"
+                              stroke="MediumVioletRed  "
                             >
                               <path
                                 stroke-linecap="round"
