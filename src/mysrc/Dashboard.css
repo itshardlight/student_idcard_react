@@ -19,12 +19,25 @@
   border-radius: 0.5rem; /* Optional: rounded corners */
   padding: 1rem;
 }
+.hoverfloat {
+  transition: all 0.4s ease;
+  box-shadow: none;
+  transform: translateY(0);
+}
+.hoverfloat:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 .greenwala {
   background-color: rgba(40, 167, 69, 0.1); /* Transparent green */
   border: 2px solid rgba(40, 167, 69, 0.2);
   border-radius: 0.5rem; /* Optional: rounded corners */
   padding: 1rem;
+  transition: all 0.4s ease;
+  box-shadow: none;
+  transform: translateY(0);
 }
+
 .purplewala {
   background-color: rgba(
     178,
@@ -72,4 +85,60 @@
 }
 .bg-green {
   background-color: #22c55e !important; /* Bootstrap's purple shade */
+}
+.font-semibold {
+  font-weight: 600; /* semi-bold */
+}
+
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px, optional */
+}
+.numberblue {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 500; /* bold */
+  color: #1e40af;
+  font-family: Arial, Helvetica, sans-serif;
+  /* blue-800 */
+}
+.numbesrgreen {
+  font-size: 15px;
+  /* 32px */
+  font-weight: 700; /* bold */
+  color: #15803d; /* green-800 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.greenhover {
+  transition: background-color 0.6s ease;
+}
+.greenhover:hover {
+  background-color: rgba(40, 167, 69, 0.2);
+  border: 2px solid rgba(40, 167, 69, 0.1);
+}
+.purplehover {
+  transition: background-color 0.6s ease;
+}
+.purplehover:hover {
+  background-color: rgba(178, 102, 255, 0.2);
+  border: 2px solid rgba(178, 102, 255, 0.1); /* Matching light purple border */
+}
+.yellowhover {
+  transition: background-color 0.6s ease;
+}
+.yellowhover:hover {
+   background-color: rgba(255, 193, 7, 0.2); /* Yellow with transparency */
+  border: 2px solid rgba(255, 193, 7, 0.1); /* Matching yellow border */
+}
+.borderdiv{
+  border-top: 2px solid rgb(218, 218, 218); /* Top border */
+  border-bottom: 2px solid rgb(218, 218, 218); /* Bottom border */
+  box-shadow: 0 4px 5px -2px rgba(137, 137, 137, 0.5); /* Shadow below bottom border */
+
+}
+.borderleftdiv{
+  border-right: 2px solid rgb(218, 218, 218); /* Top border */
+  border-bottom: 2px solid rgb(218, 218, 218); /* Bottom border */
+  box-shadow: 0 4px 5px -2px rgba(137, 137, 137, 0.5); /* Shadow below bottom border */
+
 }

@@ -22,7 +22,7 @@ function Dashboard() {
           </nav>
 
           <div
-            className="collapse left-content d-md-block col-md-2 bg-white p-3 "
+            className="collapse left-content d-md-block col-md-2 bg-white p-3 borderleftdiv"
             id="sidebarMenu"
           >
             {" "}
@@ -141,23 +141,23 @@ function Dashboard() {
             <div className="heading row d-flex align-items-center p-3 bg-primary text-white">
               <div className="col text-end">superadmin</div>
             </div>
-            <div className="row">
-              <div className="col-3 text-center p-3"> Dashboard</div>
+            <div className="row borderdiv">
+              <div className="col-3 text-center p-3"><h5>Dashboard</h5> </div>
             </div>
 
             <div className="row bg-light align-items-center p-2 ps-4">
               <div className="container py-3 col-md-10">
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="col mb-2">Welcome To The Admin Panel</div>
+                  <div className="font-semibold text-lg col mb-2 ">Welcome To The Admin Panel</div>
                   <div className="col">
                     <button class="btn btn-primary">View Student Cards</button>
                   </div>
                 </div>
                 <div className="container bg-white rounded  p-4 mb-4 ">
-                  <div className="col mb-2"> Quick Stats</div>
+                  <div className="col mb-2 font-semibold text-lg"> Quick Stats</div>
                   <div className="row ">
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="bluewala p-4 h-100 d-flex flex-column">
+                      <div className="bluewala p-4 h-100 d-flex flex-column hoverfloat">
                         <div className="row">
                           <div className="col-2">
                             <svg
@@ -177,16 +177,16 @@ function Dashboard() {
                           </div>
                           <div className="col-10">
                             {" "}
-                            <div>Total Student Cards</div>
+                            <div >Total Student Cards</div>
                           </div>
                         </div>
                         <div className="row">
-                          <div>1</div>
+                          <div className="numberblue">0</div>
                         </div>
                       </div>
                     </div>
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="greenwala p-3 h-100 d-flex flex-column ">
+                      <div className="greenwala p-3 h-100 d-flex flex-column hoverfloat">
                         <div className="row">
                           <div className="col-2">
                             <svg
@@ -210,12 +210,12 @@ function Dashboard() {
                           </div>
                         </div>
                         <div className="row">
-                          <div>None</div>
+                          <div className="numbergreen">None</div>
                         </div>
                       </div>
                     </div>
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="purplewala p-3 h-100 d-flex flex-column ">
+                      <div className="purplewala  p-3 h-100 d-flex flex-column hoverfloat">
                         <div className="row">
                           <div className="col-2">
                             <svg
@@ -247,10 +247,10 @@ function Dashboard() {
                   </div>
                 </div>
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="col mb-2"> Quick Actions</div>
+                  <div className="col mb-2 font-semibold text-lg"> Quick Actions</div>
                   <div className="row gx-3">
                     <div className="col-12 col-md-3 gy-3">
-                      <div className="greenwala p-3 h-100 d-flex align-items-center ">
+                      <div className="greenhover greenwala p-3 h-100 d-flex align-items-center">
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -275,7 +275,7 @@ function Dashboard() {
                     </div>
 
                     <div className="col-12 col-md-3 gy-3">
-                      <div className="purplewala p-3 h-100 d-flex align-items-center">
+                      <div className="purplewala purplehover p-3 h-100 d-flex align-items-center">
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -300,7 +300,7 @@ function Dashboard() {
                     </div>
 
                     <div className="col-12 col-md-3 gy-3">
-                      <div className="yellowwala p-3 h-100 d-flex align-items-center">
+                      <div className="yellowwala yellowhover p-3 h-100 d-flex align-items-center">
                         <div className="col-2 me-3">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -326,10 +326,10 @@ function Dashboard() {
                   </div>
                 </div>
                 <div className="container bg-white rounded p-4 mb-4">
-                  <div className="col mb-2"> School Statistics</div>
+                  <div className="col mb-2 font-semibold text-lg"> School Statistics</div>
                   <div className="row ">
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="greenwala p-3 h-100 d-flex flex-column ">
+                      <div className="greenwala p-3 h-100 d-flex flex-column hoverfloat">
                         <div className="row">
                           <div className="col-2">
                             <svg
@@ -353,12 +353,12 @@ function Dashboard() {
                           </div>
                         </div>
                         <div className="row">
-                          <div>1</div>
+                          <div><p className="">1</p></div>
                         </div>
                       </div>
                     </div>
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="yellowwala p-3 h-100 d-flex flex-column ">
+                      <div className="yellowwala p-3 h-100 d-flex flex-column hoverfloat ">
                         <div className="row">
                           <div className="col-2">
                             <svg
@@ -387,7 +387,7 @@ function Dashboard() {
                       </div>
                     </div>
                     <div className="col-12 col-md-4 gy-3">
-                      <div className="pinkwala p-3 h-100 d-flex flex-column ">
+                      <div className="pinkwala p-3 h-100 d-flex flex-column hoverfloat">
                         <div className="row">
                           <div className="col-2">
                             <svg
