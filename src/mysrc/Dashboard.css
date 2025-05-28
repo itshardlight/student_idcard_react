@@ -4,12 +4,47 @@
 }
 .icon2 {
   width: 40px;
-  height: 40px;    
+  height: 40px;
   background-color: #727272; /* blue */
-  border-radius: 50%;         /* circle */
-  padding: 5px;               /* smaller padding to fit */
-  box-sizing: border-box;     /* include padding in width/height */
+  border-radius: 50%; /* circle */
+  padding: 5px; /* smaller padding to fit */
+  box-sizing: border-box; /* include padding in width/height */
 }
-.bodywala{
+.bodywala {
   width: 100%;
+}
+.bluewala {
+  background-color: rgba(0, 123, 255, 0.1); /* Transparent blue */
+  border: 2px solid rgba(0, 123, 255, 0.2);
+  border-radius: 0.5rem; /* Optional: rounded corners */
+  padding: 1rem;
+}
+.greenwala {
+  background-color: rgba(40, 167, 69, 0.1); /* Transparent green */
+  border: 2px solid rgba(40, 167, 69, 0.2);
+  border-radius: 0.5rem; /* Optional: rounded corners */
+  padding: 1rem;
+}
+.purplewala {
+  background-color: rgba(
+    178,
+    102,
+    255,
+    0.1
+  ); /* Light purple with transparency */
+  border: 2px solid rgba(178, 102, 255, 0.2); /* Matching light purple border */
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.yellowwala {
+  background-color: rgba(255, 193, 7, 0.1); /* Yellow with transparency */
+  border: 2px solid rgba(255, 193, 7, 0.2); /* Matching yellow border */
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.pinkwala {
+  background-color: rgba(255, 105, 180, 0.1); /* Pink with transparency */
+  border: 2px solid rgba(255, 105, 180, 0.2); /* Matching pink border */
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
